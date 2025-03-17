@@ -124,4 +124,4 @@ $$
 > 
 > which includes the flexural rigidity constant $\nu$, $E$ is young's modulus, and $h$ is the thickness of the plate.
 > 
-> Read more about this topic in this [paper](https://www.acs.psu.edu/drussell/Demos/Dispersion/Flexural.html).
+> Read more about this topic in this [paper](https://arxiv.org/abs/2008.01693).
