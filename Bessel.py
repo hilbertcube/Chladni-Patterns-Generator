@@ -1,7 +1,7 @@
 from scipy.special import jnp_zeros
 
 n = 0   # Order of the Bessel function
-m = 7   # Zero number
+m = 8   # Zero number
 
 def bessel_derivative_zero(n, m):
     if n == 0:
