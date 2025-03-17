@@ -7,8 +7,8 @@ title = True
 font_title = 9.2        # Title font size
 color_plots = True      # All black or color plots
 thickness = 1.5         # Plot line thickness
-start = 2              # Start at pattern #
-end = 73             # End at pattern #
+start = 73              # Start at pattern #
+end = 144             # End at pattern #
 
 # Range and step size
 delta = 0.005
@@ -97,6 +97,8 @@ def plot_sum_of_squares(start_index, end_index):
     
     # Define fig and axis
     fig, axs = plt.subplots(nrows, ncols, figsize=(1.2 * ncols, nrows))
+    
+    # Color
     fig.patch.set_facecolor('black')  # Set figure background to black
     for ax in axs.flat:
         ax.set_facecolor('black')  # Set axes background to black

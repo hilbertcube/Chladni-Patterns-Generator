@@ -5,10 +5,10 @@ from scipy.special import jn, jnp_zeros
 
 a = 1.0  # Radius of the plate
 thickness = 1
-color = 'darkblue'
+color = 'darkred'
 title = True
-columns = 2
-rows = 8
+columns = 8
+rows = 6
 
 # Function to get the m-th zero of the derivative of the Bessel function of order n
 def bessel_derivative_zero(n, m):
@@ -49,6 +49,13 @@ def u(n, m, r, theta, a):
 plt.rcParams['mathtext.fontset'] = 'stix'
 plt.rcParams['font.family'] = 'serif'
 
+plt.rcParams['figure.facecolor'] = 'black'  # Set figure background to black
+plt.rcParams['axes.facecolor'] = 'black'  # Set axes background to black
+plt.rcParams['text.color'] = 'white'
+plt.rcParams['axes.labelcolor'] = 'white'
+plt.rcParams['xtick.color'] = 'white'
+plt.rcParams['ytick.color'] = 'white'
+
 # Plotting function in polar coordinates
 def plot_polar_contour(n_max, m_max, a, resolution=100):
     r = np.linspace(0, a, resolution)
@@ -61,7 +68,7 @@ def plot_polar_contour(n_max, m_max, a, resolution=100):
 
     # Define fig and axis
     fig, axs = plt.subplots(m_max, n_max, figsize=(1.4* n_max, 1.2 * m_max), subplot_kw={'projection': 'polar'})
-    
+        
     for m in range(m_max):
         for n in range(n_max):
             Z = u(n, m, R, Theta, a)
