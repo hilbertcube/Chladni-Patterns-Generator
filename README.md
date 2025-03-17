@@ -1,5 +1,5 @@
 # Chladni Pattern Generator
-Generating particle patterns on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. A project for Physics 4C in the Department of Physics and Engineering. Link to the report here: <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
+Generating patterns made by particles on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. A project for Physics 4C under the Department of Physics and Engineering. Link to the report here: <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
 
 #### Python and Packages Information:
 * Python 3.13.1
@@ -10,9 +10,9 @@ Generating particle patterns on a vibrating plate, also known as Chladni pattern
 
 
 #### Main Project Files
-* [Cartesian Model](square_wave_eqn.py)
-* [Polar Model](polar_wave_eqn.py)
-* [Plotting Specified Indexes](hydrogen_wavefunction_cli.py)
+* [The Cartesian Model](square_wave_eqn.py)
+* [The Polar Model](polar_wave_eqn.py)
+* [Plotting Specified Indexes for the Square Plate](specified_indexes.py)
 
 
 ## Preview
@@ -34,9 +34,9 @@ Generating particle patterns on a vibrating plate, also known as Chladni pattern
 ## Advanced Wave Mechanics: A Brief Overview
 
 ### The Wave Equation On Cartesian Coordinates
-The multi-dimensional wave equation,
+The multi-dimensional wave equation on $\Omega  = \{(x,y)\in\mathbb{R}^2\;|\; -a\leq x,y\leq a\}$,
 
-$$\frac{\partial^2u}{\partial t^2} = c^2\left(\frac{\partial^2u}{\partial x^2}  + \frac{\partial^2u}{\partial y^2} \right) +Q(x, y, t),\quad\quad \mathbf{x}\in\Omega$$
+$$\frac{\partial^2u}{\partial t^2} = c^2\left(\frac{\partial^2u}{\partial x^2}  + \frac{\partial^2u}{\partial y^2} \right) + Q(x, y, t),\quad\quad \mathbf{x}\in\Omega$$
 
 or written more compactly as
 
