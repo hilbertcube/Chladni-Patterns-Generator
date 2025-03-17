@@ -18,16 +18,16 @@ Generating particle patterns on a vibrating plate, also known as Chladni pattern
 ## Preview
 
 <p align="center">
-<img alt="70k-objects" src="images/dark_chladni.png" width = "550">
+<img alt="70k-objects" src="images/dark_chladni.png" width = "650">
 </p>
 
 <p align="center">
-<img alt="70k-objects" src="images/dark_chladni_2.png" width = "550">
+<img alt="70k-objects" src="images/dark_chladni_2.png" width = "650">
 </p>
 
 
 <p align="center">
-<img alt="70k-objects" src="images/dark_polar_chladni.png" width = "550">
+<img alt="70k-objects" src="images/dark_polar_chladni.png" width = "650">
 </p>
 
 
@@ -54,9 +54,9 @@ where
 
 $$
 \begin{align}
-    X_n(x) &= a_n\cos\left(\frac{n\pi x}{L}\right) + \overline{a_n}\sin\left(\frac{n\pi x}{L}\right),\\[0.5em]
-    Y_m(y) &= a_m\cos\left(\frac{m\pi y}{L}\right) + \overline{a_m}\sin\left(\frac{m\pi y}{L}\right),\\[0.5em]
-    T_{nm}(t) &= A_{nm}\cos(\omega t) + B_{nm}\sin(\omega t) + \int_{0}^{t}q_{nm}(\tau)\frac{\sin(\omega t-\omega\tau)}{\omega}d\tau,\\[0.5em]
+    X_n(x) &= a_n\cos\left(\frac{n\pi x}{L}\right) + \overline{a_n}\sin\left(\frac{n\pi x}{L}\right),\\
+    Y_m(y) &= a_m\cos\left(\frac{m\pi y}{L}\right) + \overline{a_m}\sin\left(\frac{m\pi y}{L}\right),\\
+    T_{nm}(t) &= A_{nm}\cos(\omega t) + B_{nm}\sin(\omega t) + \int_{0}^{t}q_{nm}(\tau)\frac{\sin(\omega t-\omega\tau)}{\omega}d\tau,\\
     \omega &= \frac{\pi}{L}c\sqrt{n^2+m^2}.
 \end{align}
 $$
@@ -74,7 +74,7 @@ Here, $q_{nm}$ is a function defined on the disk of radius $r$ — the radius of
 
 $$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)\;dx dy,$$
 
-where $U(r)=\{(x,y)\in\R^2\;|\; x^2+y^2\leq r^2\}$.
+where $U(r)=\{(x,y)\in \mathbb{R}^2\;|\; x^2+y^2\leq r^2\}$.
 
 > [!NOTE]
 > For more details on how these solutions are obtained, please spend some time to read the <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank">project report</a>.
@@ -88,6 +88,7 @@ $$u_{tt} = c^2\left( u_{rr} + \frac{1}{r}u_r + \frac{1}{r^2}u_{\theta\theta}\rig
 the solution for the equation in this case is
 
 $$u(r,\theta, t) = \sum_{n=0}^{\infty}\sum_{m=0}^{\infty}J_n\left( kr\right)[\Psi_{nm}(\theta)y_1(t) + \Phi_{nm}(\theta)y_2(t)],$$
+
 where
 
 $$
