@@ -34,7 +34,7 @@ Generating patterns made by particles on a vibrating plate, also known as Chladn
 ## Advanced Wave Mechanics: A Brief Overview
 
 ### The Wave Equation On Cartesian Coordinates
-The multi-dimensional wave equation on $\Omega  = \{(x,y)\in\mathbb{R}^2\;|\; -a\leq x,y\leq a\}$,
+The multi-dimensional wave equation on $\Omega  = \\{(x,y)\in\mathbb{R}^2 | -a\leq x,y\leq a\\}$,
 
 $$\frac{\partial^2u}{\partial t^2} = c^2\left(\frac{\partial^2u}{\partial x^2}  + \frac{\partial^2u}{\partial y^2} \right) + Q(x, y, t),\quad\quad \mathbf{x}\in\Omega$$
 
@@ -74,7 +74,7 @@ Here, $q_{nm}$ is a function defined on the disk of radius $r$ — the radius of
 
 $$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)\;dx dy,$$
 
-where $U(r)=\{(x,y)\in \mathbb{R}^2\;|\; x^2+y^2\leq r^2\}$.
+where $U(r)=\\{(x,y)\in \mathbb{R}^2\;|\; x^2+y^2\leq r^2\\}$.
 
 > [!NOTE]
 > For more details on how these solutions are obtained, please spend some time to read the <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank">project report</a>.
