@@ -10,8 +10,8 @@ Generating patterns made by particles on a vibrating plate, also known as Chladn
 
 
 #### Main Project Files
-* [The Cartesian Model](square_wave_eqn.py)
-* [The Polar Model](polar_wave_eqn.py)
+* [The Cartesian Model](square_wave_equation.py)
+* [The Polar Model](polar_wave_equation.py)
 * [Plotting Specified Indexes for the Square Plate](specified_indexes.py)
 
 
