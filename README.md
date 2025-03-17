@@ -43,12 +43,15 @@ or written more compactly as
 $$u_{tt} = c^2\nabla^2u + Q,\quad \mathbf{x}\in\Omega $$
 
 can be used in certain cases to approximate Chladni patterns using the clamped boundary-initial conditions 
+
 $$u_x(\pm a, y, t) = u_y(x, \pm a, t) = 0, \quad u(x,y,0) = f(x,y), \quad u_t(x,y,0) = g(x,y).$$
 
 The solution to this equation can be expressed as a double Fourier Series,
+
 $$u(x,y,t) = \frac{1}{4}A_{00} + \sum_{n=1}^{\infty}\sum_{m=1}^{\infty}X_n(x)Y_n(y)W_{nm}(t),$$
 
 where
+
 $$
 \begin{align}
     X_n(x) &= a_n\cos\left(\frac{n\pi x}{L}\right) + \overline{a_n}\sin\left(\frac{n\pi x}{L}\right),\\[0.5em]
@@ -66,8 +69,11 @@ $$
     B_{nm} &= \frac{4}{L^2} \int_{-L/2}^{L/2}\int_{-L/2}^{L/2} \frac{g(x, y)}{\omega}X_n(x)Y_m(y)\;dxdy,\quad && n, m= 1, 2, 3\ldots
 \end{alignat}
 $$
+
 Here, $q_{nm}$ is a function defined on the disk of radius $r$ — the radius of the tip of the wave generator,
+
 $$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)\;dx dy,$$
+
 where $U(r)=\{(x,y)\in\R^2\;|\; x^2+y^2\leq r^2\}$.
 
 > [!NOTE]
@@ -83,6 +89,7 @@ the solution for the equation in this case is
 
 $$u(r,\theta, t) = \sum_{n=0}^{\infty}\sum_{m=0}^{\infty}J_n\left( kr\right)[\Psi_{nm}(\theta)y_1(t) + \Phi_{nm}(\theta)y_2(t)],$$
 where
+
 $$
 \begin{aligned}
     \Psi_{nm}(\theta) &= a_{nm}\cos(n\theta) + b_{nm}\sin(n\theta),\\
@@ -94,6 +101,7 @@ $$
 $$
  
 Here, $z_{nm}$ are the zeros of the m-th derivative of the n-th order Bessel function $J_n(x)$. $\alpha, \beta, \gamma, \sigma$ are arbitrary constants that satisfies $\alpha + \gamma = 1,$ $\beta + \sigma = 1$, where $\alpha^2 + \gamma^2 \neq 0$, $\beta^2 + \sigma^2 \neq 0$, and,
+
 $$
 \begin{align}
 a_{nm} &= \frac{\langle J_0\cos(n\theta), f \rangle_w}{\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\cos(n\theta) f(r,\theta)r\;drd\theta}{2\pi\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
@@ -106,9 +114,13 @@ $$
 
 > [!NOTE]
 > All derivations above is only an approximation of the true model. The actual equation that governs the behavior of Chladni patterns is something called the Biharmonic Wave Equation, written fully as
+> 
 > $$\rho h\frac{\partial^2w}{\partial t^2} = - D\nabla^4 w + T\nabla^2 w -K_0w -K_1\frac{\partial w}{\partial t} + T_1\nabla^2\frac{\partial w}{\partial t} + F(\textbf{x}, t),$$ 
+> 
 > Here, $p$ is the density, $K_0$ is the linear stiffness coefficient, representing the linear storing force, $T$ is the tension coefficient, $K_1$ is the linear damping term, $T_1$ is the visco-elastic damping coefficient, $F(\mathbf{x}, t)$ is the forcing function, and $D$ is defined as 
+> 
 > $$D = \frac{Eh^3}{12(1-\nu^2)},$$
+> 
 > which includes the flexural rigidity constant $\nu$, $E$ is young's modulus, and $h$ is the thickness of the plate.
 > 
 > Read more about this topic in this [paper](https://www.acs.psu.edu/drussell/Demos/Dispersion/Flexural.html).
