@@ -80,8 +80,8 @@ and,
 
 $$
 \begin{alignat}{2}
-    A_{nm} &= \frac{4}{L^2}\int_{-L/2}^{L/2}\int_{-L/2}^{L/2} f(x, y)X_n(x)Y_m(y)\;dxdy,\quad && n, m= 0, 1, 2,\ldots\\
-    B_{nm} &= \frac{4}{L^2} \int_{-L/2}^{L/2}\int_{-L/2}^{L/2} \frac{g(x, y)}{\omega}X_n(x)Y_m(y)\;dxdy,\quad && n, m= 1, 2, 3\ldots
+    A_{nm} &= \frac{4}{L^2}\int_{-L/2}^{L/2}\int_{-L/2}^{L/2} f(x, y)X_n(x)Y_m(y) dxdy,\quad && n, m= 0, 1, 2,\ldots\\
+    B_{nm} &= \frac{4}{L^2} \int_{-L/2}^{L/2}\int_{-L/2}^{L/2} \frac{g(x, y)}{\omega}X_n(x)Y_m(y) dxdy,\quad && n, m= 1, 2, 3\ldots
 \end{alignat}
 $$
 
@@ -89,7 +89,7 @@ Here, $q_{nm}$ is a function defined on the disk of radius $r$ — the radius of
 
 $$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)\;dx dy,$$
 
-where $U(r)=\\{(x,y)\in \mathbb{R}^2\;|\; x^2+y^2\leq r^2\\}$.
+where $U(r)=\\{(x,y)\in \mathbb{R}^2 | x^2+y^2\leq r^2\\}$.
 
 > [!NOTE]
 > For more details on how these solutions are obtained, please spend some time to read the <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank">project report</a>.
