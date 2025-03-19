@@ -14,8 +14,23 @@ Generating patterns made by particles on a vibrating plate, also known as Chladn
 * [The Polar Model](polar_wave_equation.py)
 * [Plotting Specified Indexes for the Square Plate](specified_indexes.py)
 
+## Introduction
 
-## Preview
+<p align="center">
+<img alt="70k-objects" src="assets/media/chladniarray.jpg" width = "650">
+</p>
+<p align="center">
+<em>Chladni Patterns created in a modern lab environment (thin plates).</em>
+</p>
+<br/>
+<p align="center">
+<img alt="70k-objects" src="assets/media/ChladniG.gif" width = "300">
+</p>
+<p align="center">
+<em>Chladni Patterns on a thick aluminum plate.</em>
+</p>
+
+## Code Preview
 
 <p align="center">
 <img alt="70k-objects" src="images/dark_chladni.png" width = "650">
