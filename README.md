@@ -133,7 +133,7 @@ $$
 > 
 > $$\rho h\frac{\partial^2w}{\partial t^2} = - D\nabla^4 w + T\nabla^2 w -K_0w -K_1\frac{\partial w}{\partial t} + T_1\nabla^2\frac{\partial w}{\partial t} + F(\textbf{x}, t),$$ 
 > 
-> Here, $p$ is the density, $K_0$ is the linear stiffness coefficient, representing the linear storing force, $T$ is the tension coefficient, $K_1$ is the linear damping term, $T_1$ is the visco-elastic damping coefficient, $F(\mathbf{x}, t)$ is the forcing function, and $D$ is defined as 
+> Here, $\rho$ is the density, $K_0$ is the linear stiffness coefficient, representing the linear storing force, $T$ is the tension coefficient, $K_1$ is the linear damping term, $T_1$ is the visco-elastic damping coefficient, $F(\mathbf{x}, t)$ is the forcing function, and $D$ is defined as 
 > 
 > $$D = \frac{Eh^3}{12(1-\nu^2)},$$
 > 
