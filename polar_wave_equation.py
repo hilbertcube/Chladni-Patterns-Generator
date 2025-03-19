@@ -5,7 +5,7 @@ from scipy.special import jn, jnp_zeros
 
 a = 1.0  # Radius of the plate
 thickness = 1
-color = 'darkred'
+color = 'red'
 title = True
 columns = 8
 rows = 6

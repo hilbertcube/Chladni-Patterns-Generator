@@ -27,7 +27,7 @@ Generating patterns made by particles on a vibrating plate, also known as Chladn
 
 
 <p align="center">
-<img alt="70k-objects" src="images/dark_polar_chladni.png" width = "650">
+<img alt="70k-objects" src="images/dark_polar.png" width = "650">
 </p>
 
 
