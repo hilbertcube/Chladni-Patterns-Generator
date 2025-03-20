@@ -87,7 +87,7 @@ $$
 
 Here, $q_{nm}$ is a function defined on the disk of radius $r$ — the radius of the tip of the wave generator,
 
-$$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)\;dx dy,$$
+$$q_{nm}(\tau)=\frac{4\alpha}{L^2} \cos(\omega_0 \tau) \iint_{U(r)}X_n(x)Y_m(y)dx dy,$$
 
 where $U(r)=\\{(x,y)\in \mathbb{R}^2 | x^2+y^2\leq r^2\\}$.
 
@@ -120,10 +120,10 @@ Here, $z_{nm}$ are the zeros of the m-th derivative of the n-th order Bessel fun
 
 $$
 \begin{align}
-a_{nm} &= \frac{\langle J_0\cos(n\theta), f \rangle_w}{\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\cos(n\theta) f(r,\theta)r\;drd\theta}{2\pi\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
-b_{nm} &= \frac{\langle J_0\sin(n\theta), f \rangle_w}{\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\sin(n\theta) f(r,\theta)r\;drd\theta}{2\pi\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
-c_{nm} &= \frac{\langle J_0\cos(n\theta), g \rangle_w}{\omega\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\cos(n\theta) g(r,\theta)r\;drd\theta}{2\pi\omega\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
-d_{nm} &= \frac{\langle J_0\sin(n\theta), g \rangle_w}{\omega\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\sin(n\theta) g(r,\theta)r\;drd\theta}{2\pi\omega\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots
+a_{nm} &= \frac{\langle J_0\cos(n\theta), f \rangle_w}{\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\cos(n\theta) f(r,\theta)r drd\theta}{2\pi\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
+b_{nm} &= \frac{\langle J_0\sin(n\theta), f \rangle_w}{\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\sin(n\theta) f(r,\theta)r drd\theta}{2\pi\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
+c_{nm} &= \frac{\langle J_0\cos(n\theta), g \rangle_w}{\omega\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\cos(n\theta) g(r,\theta)r drd\theta}{2\pi\omega\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots\\
+d_{nm} &= \frac{\langle J_0\sin(n\theta), g \rangle_w}{\omega\langle J_0, J_0 \rangle_w} = \frac{\int_{0}^{a}\int_{0}^{2\pi}J_n\left( kr\right)\sin(n\theta) g(r,\theta)r drd\theta}{2\pi\omega\int_{0}^{a}J_n^2\left( kr\right) rdr},\quad n, m = 0, 1, \ldots
 \end{align}
 $$
 
