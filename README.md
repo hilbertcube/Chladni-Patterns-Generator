@@ -1,7 +1,7 @@
 # Chladni Pattern Generator
-Generating patterns made by particles on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. A project for Physics 4C under the Department of Physics and Engineering. Link to the report here: <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
+Generating patterns made by particles on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. A project for Physics 4C, under the Department of Physics and Engineering. Link to the report here: <a href = 'https://don-le.vercel.app/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
 
-#### Python and Packages Information:
+#### Python and Packages:
 * Python 3.13.1
 * Numpy 2.2.0
 * Matplotlib 3.10.0
@@ -140,3 +140,11 @@ $$
 > which includes the flexural rigidity constant $\nu$, $E$ is young's modulus, and $h$ is the thickness of the plate.
 > 
 > Read more about this topic in this [paper](https://arxiv.org/abs/2008.01693).
+
+
+## Contribution
+
+This code is distributed under the MIT license. Feel free to modify it and submit a pull request.
+
+> [!IMPORTANT]
+> What I'm looking for: Please ensure accuracy with respect to the mathematical model.
