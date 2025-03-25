@@ -22,7 +22,6 @@ X2, Y2 = np.meshgrid(x2, y2)
 Z = f(X, Y)
 Z2 = g(X2, Y2)
 
-# Create a figure for side-by-side plots
 fig = plt.figure(figsize=(16, 8))
 
 # First plot

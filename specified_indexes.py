@@ -120,5 +120,5 @@ def plot_sum_of_squares(N_values):
     plt.show()
 
 # Plotting the sum of squares patterns for specific N values
-N_values_to_plot = [21, 17, 33, 22, 62, 52, 233]  # Specify the N values to plot here
+N_values_to_plot = [21, 17, 33, 22, 62, 52, 233]
 plot_sum_of_squares(N_values_to_plot)

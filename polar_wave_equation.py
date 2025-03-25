@@ -49,8 +49,8 @@ def u(n, m, r, theta, a):
 plt.rcParams['mathtext.fontset'] = 'stix'
 plt.rcParams['font.family'] = 'serif'
 
-plt.rcParams['figure.facecolor'] = 'black'  # Set figure background to black
-plt.rcParams['axes.facecolor'] = 'black'  # Set axes background to black
+plt.rcParams['figure.facecolor'] = 'black'  # figure background
+plt.rcParams['axes.facecolor'] = 'black'  # axes background
 plt.rcParams['text.color'] = 'white'
 plt.rcParams['axes.labelcolor'] = 'white'
 plt.rcParams['xtick.color'] = 'white'

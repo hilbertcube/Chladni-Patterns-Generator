@@ -32,6 +32,8 @@ Generating patterns made by particles on a vibrating plate, also known as Chladn
 
 ## Code Preview
 
+For the first and second figures right below, patterns of the same consecutive color are patterns of the same modes.
+
 <p align="center">
 <img alt="70k-objects" src="images/dark_chladni.png" width = "650">
 </p>

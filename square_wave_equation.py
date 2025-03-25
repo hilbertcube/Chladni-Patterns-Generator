@@ -4,11 +4,11 @@ import itertools
 
 # Settings here
 title = True
-font_title = 9.2        # Title font size
-color_plots = True      # All black or color plots
-thickness = 1.5         # Plot line thickness
+font_title = 9.2
+color_plots = True      # All white or color plots
+thickness = 1.5
 start = 73              # Start at pattern #
-end = 144             # End at pattern #
+end = 144               # End at pattern #
 
 # Range and step size
 delta = 0.005
@@ -50,7 +50,6 @@ plt.rcParams['font.family'] = 'serif'
 def plot_sum_of_squares(start_index, end_index):
     total_plots = end_index - start_index + 1
     
-    # Error messages
     if end_index <= start_index:
         print("Error: End_index must be greater than start_index.\n")
         return
@@ -92,17 +91,17 @@ def plot_sum_of_squares(start_index, end_index):
                 break
         k += 1
 
-    ncols = 9  # Fixed number of columns
-    nrows = (total_plots + ncols - 1) // ncols  # Calculate the number of rows (// = Floor division)
+    ncols = 9
+    nrows = (total_plots + ncols - 1) // ncols
     
     # Define fig and axis
     fig, axs = plt.subplots(nrows, ncols, figsize=(1.2 * ncols, nrows))
     
     # Color
-    fig.patch.set_facecolor('black')  # Set figure background to black
+    fig.patch.set_facecolor('black')  # figure background
     for ax in axs.flat:
-        ax.set_facecolor('black')  # Set axes background to black
-        ax.grid(True, color='gray')  # Set grid color to gray for visibility
+        ax.set_facecolor('black')  # axes background
+        ax.grid(True, color='gray')
     
     # Colors
     colors = ['darkblue', 'red', 'darkgreen', 'deeppink', 'darkviolet', 'blue', 'darkgoldenrod', 'teal', 'darkred', 'darkcyan']
@@ -121,7 +120,11 @@ def plot_sum_of_squares(start_index, end_index):
             pair_color_mapping[pairs_tuple] = colors[color_index % len(colors)]
             color_index += 1
         
-        mode_color = pair_color_mapping[pairs_tuple] if color_plots else 'black'
+        if color_plots:
+            mode_color = pair_color_mapping[pairs_tuple] 
+        else :
+            'white'
+            
         row, col = divmod(i, ncols)
         plot_title = rf"$N = {start + i},\; S = {sums_of_squares[i]}$"
         
