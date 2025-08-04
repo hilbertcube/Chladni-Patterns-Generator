@@ -1,5 +1,5 @@
 # Chladni Pattern Generator
-Generating patterns made by particles on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. A project for Physics 4C, under the Department of Physics and Engineering. Link to the report here: <a href = 'https://ddonle.com/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
+Generating patterns made by particles on a vibrating plate, also known as Chladni patterns, using square and polar wave equation models. Link to the report here: <a href = 'https://ddonle.com/Chladni_Plate.pdf' target="_blank"> Chladni_Report </a> (or you can just view the pdf in the docs directory).
 
 #### Python and Packages:
 * Python 3.13.1
