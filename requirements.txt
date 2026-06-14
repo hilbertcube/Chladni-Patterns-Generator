@@ -1,4 +1,4 @@
 scipy
 numpy
 matplotlib
-itertools
+black
